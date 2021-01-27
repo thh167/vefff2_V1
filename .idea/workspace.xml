@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c9e49795-8e47-4350-8809-2814ca724632" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nbMtFjm3ax0i7T1bC9oVqYFikA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9e49795-8e47-4350-8809-2814ca724632" name="Default Changelist" comment="" />
+      <created>1611654550016</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611654550016</updated>
+      <workItem from="1611654551481" duration="27000" />
+      <workItem from="1611654606044" duration="3100000" />
+      <workItem from="1611658792583" duration="4671000" />
+      <workItem from="1611678595839" duration="2946000" />
+      <workItem from="1611696974103" duration="6572000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3150" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611657173887">
+      <screen x="1440" y="-697" width="3840" height="2137" />
+    </state>
+    <state x="3150" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877/1440.-697.3840.2137@1440.-697.3840.2137" timestamp="1611657173887" />
+    <state x="2814" y="-198" width="670" height="676" key="search.everywhere.popup" timestamp="1611740682837">
+      <screen x="1440" y="-697" width="3840" height="2137" />
+    </state>
+    <state x="2814" y="-198" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/1440.-697.3840.2137@1440.-697.3840.2137" timestamp="1611740682837" />
+  </component>
+</project>
