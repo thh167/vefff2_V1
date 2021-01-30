@@ -20,15 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9e49795-8e47-4350-8809-2814ca724632" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/content.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/lecture.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/video.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/lectures.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/videos.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos.js" beforeDir="false" afterPath="$PROJECT_DIR$/videos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/videos.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/videos.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +98,7 @@
       <workItem from="1611696974103" duration="6572000" />
       <workItem from="1611744837534" duration="1459000" />
       <workItem from="1611746342271" duration="10545000" />
+      <workItem from="1611848681327" duration="4703000" />
     </task>
     <servers />
   </component>
@@ -119,6 +115,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3150" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611657173887">
