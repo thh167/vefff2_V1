@@ -1,5 +1,8 @@
-import express from 'express';
-import {router} from './videos.js';
+const path = require('path');
+const express = require('express');
+
+const videos = require('./videos');
+const content = require('./lib/content');
 
 
 
@@ -12,6 +15,10 @@ const viewsPath = new URL('./views', import.meta.url).pathname;
 
 app.set('views', './views');
 app.set('view engine', 'ejs');
+
+app.locals.setContent = content;
+
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {
   // `title` verður aðgengilegt sem breyta í template
@@ -26,14 +33,8 @@ app.get('/videos', (req, res) => {
   res.render('videos', { title: 'Um', staff, extra });
 });
 
-app.use('/', router);
+app.use('/', videos);
 
-const hostname = '127.0.0.1';
-const port = 3001;
-
-app.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
 
 /**
  * Middleware sem sér um 404 villur.
@@ -65,3 +66,10 @@ function errorHandler(err, req, res, next) { // eslint-disable-line
 
 app.use(notFoundHandler);
 app.use(errorHandler);
+
+const hostname = '127.0.0.1';
+const port = 3001;
+
+app.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});

@@ -2,9 +2,8 @@
   "name": "vef2-2021-v1",
   "version": "1.0.0",
   "description": "V1",
-  "main": ".eslintrc.js",
+  "main": "app.js",
   "type": "module",
-  "main": "index.js",
   "scripts": {
     "start": "nodemon app.js",
     "eslint": "eslint *.js",
@@ -14,16 +13,14 @@
     "type": "git",
     "url": "git+https://github.com/vefforritun/vef2-2021-v1.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vefforritun/vef2-2021-v1/issues"
-  },
-  "homepage": "https://github.com/vefforritun/vef2-2021-v1#readme",
   "dependencies": {
     "browser-sync": "^2.26.13",
     "ejs": "^3.1.5",
     "express": "^4.17.1",
+    "jsdom": "^16.4.0",
     "mkdirp": "^0.5.4",
     "sass": "^1.32.4",
     "stylelint": "^13.8.0"

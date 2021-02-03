@@ -1,6 +1,8 @@
-import express from 'express';
-import util from 'util';
-import fs from 'fs';
+const util = require('util');
+const fs = require('fs');
+const express = require('express');
+
+const router = express.Router();
 
 const readFileAsync = util.promisify(fs.readFile);
 
@@ -58,9 +60,9 @@ async function video(req, res, next) {
   const { slug } = req.params;
 
   const json = await readList();
-  const { lectures } = json;
+  const { videos } = json;
 
-  const foundLecture = lectures.find(a => a.slug === slug);
+  const foundLecture = videos.find(a => a.slug === slug);
 
   if (!foundLecture) {
     // sendum í 404 handler
@@ -76,6 +78,7 @@ router.get('/', catchErrors(list));
 router.get('/:slug', catchErrors(video));
 
 
+module.exports = router;
 
 
 
@@ -85,22 +88,3 @@ router.get('/:slug', catchErrors(video));
 
 
 
-
-////////////////////////////              ///////////////////////////////              //////////////////////////
-/*
-router.get('/', (req, res) => {
-  res.send('Hvað er í gangi?!');
-});
-
-// Route sem inniheldur regexp og svarar fyrir /foo og /fooooo! o.s.fr
-router.get(/foo.*$/, (req, res) => {
-  res.send(`Þú ert á ${req.originalUrl}<br>url er ${req.url}`);
-});
-
-// Náum í gögn úr /bar route
-// Ef við sleppum ? svarar þetta ekki fyrir /bar, aðeins /bar/x, /bar/foo o.sfr.
-router.get('/bar/:data?', (req, res) => {
-  res.send(`Data = ${req.params.data}`);
-});
-
- */
